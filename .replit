@@ -1,6 +1,7 @@
 run = "vite"
 entrypoint = "index.html"
 hidden = ["vite.config.js", ".config"]
+modules = ["web:v2-20230623-0b7a606"]
 
 [nix]
 channel = "stable-22_11"
